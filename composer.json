@@ -1,0 +1,21 @@
+{
+    "name": "joan/yii2-joan-dump",
+    "description": "Permite la impresión de una manera sencilla",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","print","dump"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "JoAn",
+            "email": "JoAn@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "joan\\dump\\": ""
+        }
+    }
+}
